@@ -1,4 +1,4 @@
-module github.com/ibrahimker/golang-praisindo-advanced
+module github.com/albimukti/Tranning-golang
 
 go 1.22.4
 

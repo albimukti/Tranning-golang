@@ -1,9 +1,9 @@
 package router
 
 import (
+	"github.com/albimukti/Tranning-golang/session-2/handler"
+	"github.com/albimukti/Tranning-golang/session-2/middleware"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-2-latihan-crud-user-gin/handler"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-2-latihan-crud-user-gin/middleware"
 )
 
 func SetupRouter(r *gin.Engine) {

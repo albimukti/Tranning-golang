@@ -1,11 +1,12 @@
 package handler
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-2-latihan-crud-user-gin/entity"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-2/entity"
+	"github.com/gin-gonic/gin"
 )
 
 var (

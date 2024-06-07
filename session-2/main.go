@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-2-latihan-crud-user-gin/router"
 	"log"
+
+	"github.com/albimukti/Tranning-golang/session-2/router"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {

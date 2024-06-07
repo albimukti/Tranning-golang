@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
+	"github.com/albimukti/Tranning-golang/session-1/router"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-1-introduction-gin/router"
 )
 
 func main() {
