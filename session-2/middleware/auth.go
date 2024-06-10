@@ -1,8 +1,9 @@
 package middleware
 
 import (
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 // AuthMiddleware adalah middleware untuk autentikasi
@@ -17,8 +18,8 @@ func AuthMiddleware() gin.HandlerFunc {
 		}
 
 		const (
-			expectedUsername = "user"
-			expectedPassword = "pass"
+			expectedUsername = "albi"
+			expectedPassword = "123456"
 		)
 		isValid := (username == expectedUsername) && (password == expectedPassword)
 		if !isValid {
