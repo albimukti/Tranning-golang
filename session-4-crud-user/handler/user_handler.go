@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/service"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/service"
 )
 
 // IUserHandler mendefinisikan interface untuk handler user

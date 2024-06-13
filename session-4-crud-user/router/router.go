@@ -2,9 +2,9 @@
 package router
 
 import (
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/handler"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/middleware"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/handler"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/middleware"
 )
 
 // SetupRouter menginisialisasi dan mengatur rute untuk aplikasi

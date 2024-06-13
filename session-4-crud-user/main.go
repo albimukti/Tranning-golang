@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/handler"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/repository/slice"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/router"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/service"
 	"log"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/handler"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/repository/slice"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/router"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/service"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {

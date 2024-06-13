@@ -2,13 +2,14 @@
 package router_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/test/mock/handler"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/test/mock/handler"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/router"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/router"
 	"github.com/stretchr/testify/require"
 )
 

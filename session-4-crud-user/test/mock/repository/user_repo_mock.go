@@ -1,8 +1,9 @@
 package repository
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
 )
 
 // MockUserRepository adalah mock untuk IUserRepository

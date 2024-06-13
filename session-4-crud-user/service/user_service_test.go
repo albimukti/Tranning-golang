@@ -1,11 +1,12 @@
 package service_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/service"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/test/mock/repository"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/service"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/test/mock/repository"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCreateUser(t *testing.T) {

@@ -3,7 +3,7 @@ package service
 import (
 	"errors"
 
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
 )
 
 // MockUserService adalah mock untuk service.IUserService

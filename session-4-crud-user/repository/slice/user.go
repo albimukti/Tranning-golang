@@ -1,9 +1,10 @@
 package slice
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/service"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/service"
 )
 
 // userRepository adalah implementasi dari IUserRepository yang menggunakan slice untuk menyimpan data pengguna

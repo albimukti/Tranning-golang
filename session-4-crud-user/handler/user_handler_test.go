@@ -3,15 +3,16 @@ package handler_test
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/test/mock/service"
-	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/test/mock/service"
+	"github.com/stretchr/testify/require"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/handler"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/handler"
 )
 
 func TestGetAllUserHandler(t *testing.T) {

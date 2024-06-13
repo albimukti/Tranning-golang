@@ -1,10 +1,11 @@
 package slice_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/repository/slice"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/repository/slice"
+	"github.com/stretchr/testify/require"
 )
 
 func TestUserRepository(t *testing.T) {

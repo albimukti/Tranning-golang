@@ -1,9 +1,10 @@
 package middleware
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/config"
 	"net/http"
+
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/config"
+	"github.com/gin-gonic/gin"
 )
 
 // AuthMiddleware adalah middleware untuk autentikasi
