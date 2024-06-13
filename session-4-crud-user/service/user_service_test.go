@@ -14,11 +14,11 @@ func TestCreateUser(t *testing.T) {
 	userService := service.NewUserService(mockRepo)
 
 	t.Run("CreateUser - Success", func(t *testing.T) {
-		user := &entity.User{Name: "Test", Email: "test@example.com", Password: "password"}
+		user := &entity.User{Name: "Albi", Email: "albi@example.com", Password: "12345"}
 		createdUser := userService.CreateUser(user)
 
 		assert.Equal(t, 0, createdUser.ID)
-		assert.Equal(t, "Test", createdUser.Name)
+		assert.Equal(t, "Albi", createdUser.Name)
 		assert.NotZero(t, createdUser.CreatedAt)
 		assert.NotZero(t, createdUser.UpdatedAt)
 	})
@@ -28,7 +28,7 @@ func TestGetUserByID(t *testing.T) {
 	mockRepo := &repository.MockUserRepository{}
 	userService := service.NewUserService(mockRepo)
 
-	user := &entity.User{Name: "Test", Email: "test@example.com", Password: "password"}
+	user := &entity.User{Name: "Albi", Email: "albi@example.com", Password: "albi123"}
 	createdUser := userService.CreateUser(user)
 
 	t.Run("GetUserByID - Success", func(t *testing.T) {

@@ -49,7 +49,7 @@ func TestCreateUserHandler(t *testing.T) {
 		r := gin.Default()
 		r.POST("/users", userHandler.CreateUser)
 
-		user := entity.User{Name: "Test User", Email: "test@example.com", Password: "testpass"}
+		user := entity.User{Name: "Albi", Email: "Albi@example.com", Password: "12345"}
 		jsonUser, _ := json.Marshal(user)
 
 		req, _ := http.NewRequest("POST", "/users", bytes.NewBuffer(jsonUser))
