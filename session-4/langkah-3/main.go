@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/albimukti/Tranning-golang/session-4/step-3/entity"
-	"github.com/albimukti/Tranning-golang/session-4/step-3/handler"
-	"github.com/albimukti/Tranning-golang/session-4/step-3/service"
+	"github.com/albimukti/Tranning-golang/session-4/langkah-3/entity"
+	"github.com/albimukti/Tranning-golang/session-4/langkah-3/handler"
+	"github.com/albimukti/Tranning-golang/session-4/langkah-3/service"
 	"github.com/gin-gonic/gin"
 )
 
