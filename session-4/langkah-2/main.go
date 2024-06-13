@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/albimukti/tranning-golang/session-4/langkah-2/entity"
+	"github.com/albimukti/tranning-golang/session-4/langkah-2/service"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4/langkah-2/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4/langkah-2/service"
 )
 
 func main() {

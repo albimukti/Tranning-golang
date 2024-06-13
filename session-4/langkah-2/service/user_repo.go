@@ -1,6 +1,6 @@
 package service
 
-import "github.com/ibrahimker/golang-praisindo-advanced/session-4-/langkah-2/entity"
+import "github.com/albimukti/tranning-golang/session-4-/langkah-2/entity"
 
 // userRepository adalah implementasi dari IUserRepository yang menggunakan slice untuk menyimpan data pengguna
 type userRepository struct {
