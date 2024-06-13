@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/albimukti/tranning-golang/session-4/langkah-2/entity"
-	"github.com/albimukti/tranning-golang/session-4/langkah-2/service"
+	"github.com/albimukti/Tranning-golang/session-4/langkah-2/entity"
+	"github.com/albimukti/Tranning-golang/session-4/langkah-2/service"
 	"github.com/gin-gonic/gin"
 )
 
