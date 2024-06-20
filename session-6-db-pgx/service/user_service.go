@@ -3,7 +3,8 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-6-db-pgx/entity"
+
+	"github.com/albimukti/Tranning-golang/session-6-db-pgx/entity"
 )
 
 // IUserService mendefinisikan interface untuk layanan pengguna
