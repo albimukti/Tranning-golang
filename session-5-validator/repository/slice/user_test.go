@@ -1,10 +1,11 @@
 package slice_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/repository/slice"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/albimukti/Tranning-golang/session-5-validator/entity"
+	"github.com/albimukti/Tranning-golangsession-5-validator/repository/slice"
+	"github.com/stretchr/testify/require"
 )
 
 func TestUserRepository(t *testing.T) {

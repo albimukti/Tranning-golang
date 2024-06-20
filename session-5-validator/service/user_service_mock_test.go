@@ -1,8 +1,9 @@
 package service_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/entity"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-5-validator/entity"
 )
 
 // MockUserRepository adalah mock untuk IUserRepository

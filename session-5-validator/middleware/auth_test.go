@@ -1,11 +1,12 @@
 package middleware_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/middleware"
-	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/albimukti/Tranning-golang/session-5-validator/middleware"
+	"github.com/stretchr/testify/require"
 
 	"github.com/gin-gonic/gin"
 )

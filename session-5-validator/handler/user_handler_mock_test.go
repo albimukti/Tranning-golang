@@ -3,7 +3,7 @@ package handler_test
 import (
 	"errors"
 
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/entity"
+	"github.com/albimukti/Tranning-golang/session-5-validator/entity"
 )
 
 // MockUserService adalah mock untuk service.IUserService

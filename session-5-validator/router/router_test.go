@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/albimukti/Tranning-golang/session-5-validator/router"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/router"
 	"github.com/stretchr/testify/require"
 )
 
