@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/albimukti/Tranning-golang/session-4-unit-test-crud-user/entity"
+	"github.com/albimukti/Tranning-golang/session-4-crud-user/entity"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
