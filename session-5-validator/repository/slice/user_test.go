@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/albimukti/Tranning-golang/session-5-validator/entity"
-	"github.com/albimukti/Tranning-golangsession-5-validator/repository/slice"
+	"github.com/albimukti/Tranning-golang/session-5-validator/repository/slice"
 	"github.com/stretchr/testify/require"
 )
 
