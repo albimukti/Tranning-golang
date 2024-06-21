@@ -2,7 +2,8 @@ package service
 
 import (
 	"fmt"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/entity"
+
+	"github.com/albimukti/Tranning-golang/session-5-validator/entity"
 )
 
 // IUserService mendefinisikan interface untuk layanan pengguna

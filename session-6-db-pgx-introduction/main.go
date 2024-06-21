@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-4-unit-test-crud-user/entity"
-	"github.com/jackc/pgx/v5/pgxpool"
 	"log"
+
+	"github.com/albimukti/Tranning-golang/session-4-unit-test-crud-user/entity"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 func main() {

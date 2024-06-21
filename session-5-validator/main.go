@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/handler"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/repository/slice"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/router"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/service"
 	"log"
+
+	"github.com/albimukti/Tranning-golang/session-5-validator/entity"
+	"github.com/albimukti/Tranning-golang/session-5-validator/handler"
+	"github.com/albimukti/Tranning-golang/session-5-validator/repository/slice"
+	"github.com/albimukti/Tranning-golang/session-5-validator/router"
+	"github.com/albimukti/Tranning-golang/session-5-validator/service"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {

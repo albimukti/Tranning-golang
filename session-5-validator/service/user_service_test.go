@@ -1,10 +1,11 @@
 package service_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-5-validator/service"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/albimukti/Tranning-golang/session-5-validator/entity"
+	"github.com/albimukti/Tranning-golang/session-5-validator/service"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCreateUser(t *testing.T) {
