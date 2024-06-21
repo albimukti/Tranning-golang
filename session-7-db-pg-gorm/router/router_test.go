@@ -2,15 +2,16 @@ package router_test
 
 import (
 	"encoding/base64"
-	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
+	"github.com/stretchr/testify/require"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/router"
+	mock_handler "github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/test/mock/handler"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/router"
-	mock_handler "github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/test/mock/handler"
 )
 
 func TestSetupRouter(t *testing.T) {

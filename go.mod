@@ -7,7 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/golang/mock v1.6.0
 	github.com/jackc/pgx/v5 v5.6.0
-	github.com/pashagolub/pgxmock/v4 v4.0.0
+	github.com/pashagolub/pgxmock/v4 v4.1.0
 	github.com/stretchr/testify v1.9.0
 	gorm.io/driver/postgres v1.5.9
 	gorm.io/gorm v1.25.10

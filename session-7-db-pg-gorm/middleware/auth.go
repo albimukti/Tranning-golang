@@ -1,9 +1,10 @@
 package middleware
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/config"
 	"net/http"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/config"
+	"github.com/gin-gonic/gin"
 )
 
 // AuthMiddleware adalah middleware untuk autentikasi

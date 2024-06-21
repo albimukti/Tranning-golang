@@ -3,10 +3,11 @@ package postgres_gorm
 import (
 	"context"
 	"errors"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/service"
-	"gorm.io/gorm"
 	"log"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/entity"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/service"
+	"gorm.io/gorm"
 )
 
 // GormDBIface defines an interface for GORM DB methods used in the repository

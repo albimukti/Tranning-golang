@@ -2,17 +2,18 @@ package handler_test
 
 import (
 	"errors"
-	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/entity"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/handler"
+	mock_service "github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/test/mock/service"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/handler"
-	mock_service "github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/test/mock/service"
 )
 
 func TestUserHandler_CreateUser(t *testing.T) {

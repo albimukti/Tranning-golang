@@ -3,7 +3,7 @@ package postgres_gorm_raw_test
 import (
 	"context"
 	"errors"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/repository/postgres_gorm_raw"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/repository/postgres_gorm_raw"
 	"github.com/stretchr/testify/require"
 	"regexp"
 	"testing"
@@ -13,7 +13,7 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/entity"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/entity"
 )
 
 func setupSQLMock(t *testing.T) (sqlmock.Sqlmock, *gorm.DB) {

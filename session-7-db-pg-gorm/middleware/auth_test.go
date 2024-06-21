@@ -1,11 +1,12 @@
 package middleware_test
 
 import (
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/middleware"
-	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/middleware"
+	"github.com/stretchr/testify/require"
 
 	"github.com/gin-gonic/gin"
 )

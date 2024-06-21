@@ -3,13 +3,14 @@ package postgres_pgx_test
 import (
 	"context"
 	"errors"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/repository/postgres_pgx"
-	"github.com/pashagolub/pgxmock/v4"
-	"github.com/stretchr/testify/require"
 	"regexp"
 	"testing"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/entity"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/repository/postgres_pgx"
+	"github.com/pashagolub/pgxmock/v4"
+	"github.com/stretchr/testify/require"
 )
 
 func TestUserRepository_CreateUser(t *testing.T) {

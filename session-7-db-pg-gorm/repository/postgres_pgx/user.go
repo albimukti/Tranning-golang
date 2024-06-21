@@ -2,11 +2,12 @@ package postgres_pgx
 
 import (
 	"context"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/service"
+	"log"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/entity"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/service"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
-	"log"
 )
 
 // PgxPoolIface defines a little interface for pgxpool functionality.

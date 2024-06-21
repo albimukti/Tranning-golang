@@ -2,16 +2,17 @@ package main
 
 import (
 	"context"
+	"log"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/handler"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/repository/postgres_gorm"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/repository/postgres_pgx"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/router"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/service"
 	"github.com/gin-gonic/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/handler"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/repository/postgres_gorm"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/repository/postgres_pgx"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/router"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/service"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"log"
 )
 
 func main() {

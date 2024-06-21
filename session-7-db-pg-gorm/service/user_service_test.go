@@ -3,13 +3,14 @@ package service_test
 import (
 	"context"
 	"errors"
-	"github.com/golang/mock/gomock"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/service"
-	mock_service "github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/test/mock/service"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/entity"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/service"
+	mock_service "github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/test/mock/service"
+	"github.com/golang/mock/gomock"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestUserService_CreateUser(t *testing.T) {

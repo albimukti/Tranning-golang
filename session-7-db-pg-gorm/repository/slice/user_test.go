@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/repository/slice"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-7-db-pg-gorm/service"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/entity"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/repository/slice"
+	"github.com/albimukti/Tranning-golang/session-7-db-pg-gorm/service"
 	"github.com/stretchr/testify/require"
 )
 
