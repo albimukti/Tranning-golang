@@ -2,9 +2,9 @@
 package router
 
 import (
+	gin2 "github.com/albimukti/Tranning-golang/session-9-grpc/handler/gin"
+	"github.com/albimukti/Tranning-golang/session-9-grpc/middleware"
 	"github.com/gin-gonic/gin"
-	gin2 "github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/handler/gin"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/middleware"
 )
 
 // SetupRouter menginisialisasi dan mengatur rute untuk aplikasi

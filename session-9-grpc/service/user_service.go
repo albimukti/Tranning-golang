@@ -3,7 +3,8 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/entity"
+
+	"github.com/albimukti/Tranning-golang/session-9-grpc/entity"
 )
 
 // IUserService mendefinisikan interface untuk layanan pengguna

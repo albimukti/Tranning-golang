@@ -3,8 +3,8 @@ package postgres_gorm_raw
 import (
 	"context"
 	"errors"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/service"
+	"github.com/albimukti/Tranning-golang/tree/main/session-9-grpc/entity"
+	"github.com/albimukti/Tranning-golang/tree/main/session-9-grpc/service"
 	"gorm.io/gorm"
 	"log"
 )

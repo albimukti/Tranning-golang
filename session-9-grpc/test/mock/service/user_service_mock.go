@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	entity "github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/entity"
+	entity "github.com/albimukti/Tranning-golang/session-9-grpc/entity"
 )
 
 // MockIUserService is a mock of IUserService interface.

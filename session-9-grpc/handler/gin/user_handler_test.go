@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/entity"
+	"github.com/albimukti/Tranning-golang/tree/main/session-9-grpc/entity"
 	"github.com/stretchr/testify/require"
 
 	"github.com/gin-gonic/gin"

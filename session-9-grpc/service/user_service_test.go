@@ -3,13 +3,14 @@ package service_test
 import (
 	"context"
 	"errors"
-	"github.com/golang/mock/gomock"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/entity"
-	"github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/service"
-	mock_service "github.com/ibrahimker/golang-praisindo-advanced/session-9-crud-user-grpc/test/mock/service"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-9-grpc/entity"
+	"github.com/albimukti/Tranning-golang/session-9-grpc/service"
+	mock_service "github.com/albimukti/Tranning-golang/session-9-grpc/test/mock/service"
+	"github.com/golang/mock/gomock"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestUserService_CreateUser(t *testing.T) {
