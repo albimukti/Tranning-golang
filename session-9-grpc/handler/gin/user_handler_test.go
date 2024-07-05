@@ -9,7 +9,7 @@ import (
 
 	"github.com/albimukti/Tranning-golang/session-9-grpc/entity"
 	"github.com/albimukti/Tranning-golang/session-9-grpc/handler"
-	mock_service "github.com/albimukti/Tranning-golang/session-9-grpc/service/mock"
+	mock_service "github.com/albimukti/Tranning-golang/session-9-grpc/test/mock/service"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"

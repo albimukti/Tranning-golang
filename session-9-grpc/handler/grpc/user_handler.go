@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/albimukti/Tranning-golang/session-9-grpc/entity"
-	pb "github.com/albimukti/Tranning-golang/session-9-grpc/proto"
+	pb "github.com/albimukti/Tranning-golang/session-9-grpc/proto/user_service/v1"
 	"github.com/albimukti/Tranning-golang/session-9-grpc/service"
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
