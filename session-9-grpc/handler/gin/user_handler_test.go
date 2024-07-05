@@ -7,12 +7,13 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
+
 	"github.com/albimukti/Tranning-golang/session-9-grpc/entity"
 	"github.com/albimukti/Tranning-golang/session-9-grpc/handler"
 	mock_service "github.com/albimukti/Tranning-golang/session-9-grpc/test/mock/service"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestUserHandler_CreateUser(t *testing.T) {
@@ -46,7 +47,6 @@ func TestUserHandler_CreateUser(t *testing.T) {
 		require.Equal(t, http.StatusCreated, resp.Code)
 		require.JSONEq(t, `{"id":0,"name":"John Doe","email":"john@example.com","password":"password","created_at":"0001-01-01T00:00:00Z","updated_at":"0001-01-01T00:00:00Z"}`, resp.Body.String())
 	})
-
 	t.Run("InvalidPayload_MissingName", func(t *testing.T) {
 		req := httptest.NewRequest(http.MethodPost, "/users", strings.NewReader(`{"email":"john@example.com","password":"password"}`))
 		req.Header.Set("Content-Type", "application/json")

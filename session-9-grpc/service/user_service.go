@@ -10,10 +10,10 @@ import (
 // IUserService mendefinisikan interface untuk layanan pengguna
 type IUserService interface {
 	CreateUser(ctx context.Context, user *entity.User) (entity.User, error)
-	GetUserByID(ctx context.Context, id int) (entity.User, error)
 	UpdateUser(ctx context.Context, id int, user entity.User) (entity.User, error)
-	DeleteUser(ctx context.Context, id int) error
+	GetUserByID(ctx context.Context, id int) (entity.User, error)
 	GetAllUsers(ctx context.Context) ([]entity.User, error)
+	DeleteUser(ctx context.Context, id int) error
 }
 
 // IUserRepository mendefinisikan interface untuk repository pengguna
