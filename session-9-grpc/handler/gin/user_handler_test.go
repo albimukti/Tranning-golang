@@ -8,10 +8,11 @@ import (
 	"testing"
 
 	"github.com/albimukti/Tranning-golang/session-9-grpc/entity"
-	"github.com/stretchr/testify/require"
-
+	"github.com/albimukti/Tranning-golang/session-9-grpc/handler"
+	mock_service "github.com/albimukti/Tranning-golang/session-9-grpc/service/mock"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
+	"github.com/stretchr/testify/require"
 )
 
 func TestUserHandler_CreateUser(t *testing.T) {
@@ -19,7 +20,7 @@ func TestUserHandler_CreateUser(t *testing.T) {
 	defer ctrl.Finish()
 
 	mockService := mock_service.NewMockIUserService(ctrl)
-	userHandler := gin2.NewUserHandler(mockService)
+	userHandler := handler.NewUserHandler(mockService)
 
 	gin.SetMode(gin.TestMode)
 
@@ -97,7 +98,7 @@ func TestUserHandler_GetUser(t *testing.T) {
 	defer ctrl.Finish()
 
 	mockService := mock_service.NewMockIUserService(ctrl)
-	userHandler := gin2.NewUserHandler(mockService)
+	userHandler := handler.NewUserHandler(mockService)
 
 	gin.SetMode(gin.TestMode)
 
@@ -151,7 +152,7 @@ func TestUserHandler_UpdateUser(t *testing.T) {
 	defer ctrl.Finish()
 
 	mockService := mock_service.NewMockIUserService(ctrl)
-	userHandler := gin2.NewUserHandler(mockService)
+	userHandler := handler.NewUserHandler(mockService)
 
 	gin.SetMode(gin.TestMode)
 
@@ -227,7 +228,7 @@ func TestUserHandler_DeleteUser(t *testing.T) {
 	defer ctrl.Finish()
 
 	mockService := mock_service.NewMockIUserService(ctrl)
-	userHandler := gin2.NewUserHandler(mockService)
+	userHandler := handler.NewUserHandler(mockService)
 
 	gin.SetMode(gin.TestMode)
 
@@ -277,7 +278,7 @@ func TestUserHandler_GetAllUsers(t *testing.T) {
 	defer ctrl.Finish()
 
 	mockService := mock_service.NewMockIUserService(ctrl)
-	userHandler := gin2.NewUserHandler(mockService)
+	userHandler := handler.NewUserHandler(mockService)
 
 	gin.SetMode(gin.TestMode)
 
