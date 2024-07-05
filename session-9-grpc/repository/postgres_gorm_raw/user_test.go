@@ -3,17 +3,18 @@ package postgres_gorm_raw_test
 import (
 	"context"
 	"errors"
-	"github.com/albimukti/Tranning-golang/tree/main/session-9-grpc/repository/postgres_gorm_raw"
-	"github.com/stretchr/testify/require"
 	"regexp"
 	"testing"
 	"time"
+
+	"github.com/albimukti/Tranning-golang/session-9-grpc/repository/postgres_gorm_raw"
+	"github.com/stretchr/testify/require"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	"github.com/albimukti/Tranning-golang/tree/main/session-9-grpc/entity"
+	"github.com/albimukti/Tranning-golang/session-9-grpc/entity"
 )
 
 func setupSQLMock(t *testing.T) (sqlmock.Sqlmock, *gorm.DB) {
