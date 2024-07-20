@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package urlshortener;
+option go_package = "github.com/albimukti/assignment_3_albi/internal/proto";
+
+service URLShortener {
+  rpc ShortenURL(ShortenURLRequest) returns (ShortenURLResponse);
+  rpc GetLongURL(GetLongURLRequest) returns (GetLongURLResponse);
+}
+
+message ShortenURLRequest {
+  string long_url = 1;
+}
+
+message ShortenURLResponse {
+  string short_url = 1;
+}
+
+message GetLongURLRequest {
+  string short_url = 1;
+}
+
+message GetLongURLResponse {
+  string long_url = 1;
+}
