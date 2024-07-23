@@ -38,5 +38,6 @@ func main() {
 
 	r := gin.Default()
 	r.GET("/:short_url", handler.RedirectHandler)
+	r.POST("/short_url", handler.CreateShortURLHandler)
 	r.Run(":8080")
 }
