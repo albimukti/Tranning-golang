@@ -7,7 +7,7 @@ import (
 	"github.com/albimukti/assignment_3_albi/internal/cache"
 	"github.com/albimukti/assignment_3_albi/internal/database"
 	"github.com/albimukti/assignment_3_albi/internal/handler"
-	"github.com/albimukti/assignment_3_albi/internal/proto"
+	proto "github.com/albimukti/assignment_3_albi/internal/proto/proto"
 	"github.com/albimukti/assignment_3_albi/internal/service"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	connString := "postgres://username:password@localhost:5432/yourdbname?sslmode=disable"
+	connString := "postgres://postgres:albi123@localhost:5432/DB_tranning?sslmode=disable"
 	database.InitDB(connString)
 	defer database.CloseDB()
 

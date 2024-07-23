@@ -8,7 +8,7 @@ import (
 
 	"github.com/albimukti/assignment_3_albi/internal/cache"
 	"github.com/albimukti/assignment_3_albi/internal/database"
-	"github.com/albimukti/assignment_3_albi/internal/proto"
+	"github.com/albimukti/assignment_3_albi/internal/proto/proto"
 	"github.com/teris-io/shortid"
 )
 

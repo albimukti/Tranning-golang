@@ -1,7 +1,6 @@
 syntax = "proto3";
 
-package urlshortener;
-option go_package = "github.com/albimukti/assignment_3_albi/internal/proto";
+option go_package = "/proto";
 
 service URLShortener {
   rpc ShortenURL(ShortenURLRequest) returns (ShortenURLResponse);
